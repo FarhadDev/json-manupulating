@@ -69,6 +69,10 @@
                 {
                     "color": "Blue",
                     "batteryLife": "25 hours"
+                },
+                {
+                    "color": "Orange",
+                    "batteryLife": "20 hours"
                 }
             ],
             "images": [
