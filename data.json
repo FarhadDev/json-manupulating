@@ -1,0 +1,152 @@
+{
+    "products": [
+        {
+            "id": 101,
+            "name": "Wireless Mouse",
+            "description": "Ergonomic wireless mouse with USB receiver",
+            "price": 19.99,
+            "stock": 120,
+            "category": {
+                "id": 1,
+                "name": "Electronics",
+                "description": "Gadgets and devices"
+            },
+            "rating": 4.5,
+            "variants": [
+                {
+                    "color": "Black",
+                    "connectivity": "USB"
+                },
+                {
+                    "color": "White",
+                    "connectivity": "Bluetooth"
+                }
+            ],
+            "images": [
+                "https://example.com/images/mouse1.jpg",
+                "https://example.com/images/mouse2.jpg"
+            ],
+            "reviews": [
+                {
+                    "reviewId": 501,
+                    "user": {
+                        "id": 1,
+                        "name": "Alice Johnson"
+                    },
+                    "rating": 5,
+                    "comment": "Great mouse, works perfectly!",
+                    "date": "2025-06-10"
+                },
+                {
+                    "reviewId": 502,
+                    "user": {
+                        "id": 2,
+                        "name": "Bob Smith"
+                    },
+                    "rating": 4,
+                    "comment": "Good quality but a bit small for large hands.",
+                    "date": "2025-06-11"
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "name": "Bluetooth Headphones",
+            "description": "Noise-cancelling over-ear headphones with premium sound",
+            "price": 59.99,
+            "stock": 85,
+            "category": {
+                "id": 1,
+                "name": "Electronics",
+                "description": "Gadgets and devices"
+            },
+            "rating": 4.7,
+            "variants": [
+                {
+                    "color": "Black",
+                    "batteryLife": "20 hours"
+                },
+                {
+                    "color": "Blue",
+                    "batteryLife": "25 hours"
+                }
+            ],
+            "images": [
+                "https://example.com/images/headphones1.jpg"
+            ],
+            "reviews": [
+                {
+                    "reviewId": 503,
+                    "user": {
+                        "id": 3,
+                        "name": "Charlie Davis"
+                    },
+                    "rating": 5,
+                    "comment": "Amazing sound and battery life!",
+                    "date": "2025-06-09"
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "name": "Running Shoes",
+            "description": "Breathable and lightweight running shoes",
+            "price": 49.99,
+            "stock": 200,
+            "category": {
+                "id": 2,
+                "name": "Footwear",
+                "description": "Shoes, sandals and more"
+            },
+            "rating": 4.3,
+            "variants": [
+                {
+                    "color": "Red",
+                    "size": [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "color": "Black",
+                    "size": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ],
+            "images": [
+                "https://example.com/images/shoes1.jpg",
+                "https://example.com/images/shoes2.jpg"
+            ],
+            "reviews": [
+                {
+                    "reviewId": 504,
+                    "user": {
+                        "id": 4,
+                        "name": "David Miller"
+                    },
+                    "rating": 4,
+                    "comment": "Very comfy and stylish.",
+                    "date": "2025-06-08"
+                },
+                {
+                    "reviewId": 505,
+                    "user": {
+                        "id": 5,
+                        "name": "Eva Green"
+                    },
+                    "rating": 3.5,
+                    "comment": "Good but sole wears out quickly.",
+                    "date": "2025-06-12"
+                }
+            ]
+        }
+    ]
+}
